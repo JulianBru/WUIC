@@ -1,0 +1,214 @@
+{
+    "d": {
+      "actions": {
+        "finish": {
+          "do_sound": false
+        },
+        "init": [],
+        "start": {
+          "custom": "",
+          "do_custom": false,
+          "do_sound": true,
+          "sound": " custom",
+          "sound_path": "flaeche/Franz_Flache_KekW.mp3"
+        }
+      },
+      "alpha": 1,
+      "anchorFrameType": "SCREEN",
+      "anchorPoint": "CENTER",
+      "animation": {
+        "finish": {
+          "duration_type": "seconds",
+          "easeStrength": 3,
+          "easeType": "none",
+          "type": "none"
+        },
+        "main": {
+          "duration_type": "seconds",
+          "easeStrength": 3,
+          "easeType": "none",
+          "type": "none"
+        },
+        "start": {
+          "duration_type": "seconds",
+          "easeStrength": 3,
+          "easeType": "none",
+          "type": "none"
+        }
+      },
+      "authorOptions": [],
+      "auto": false,
+      "backgroundColor": [
+        0,
+        0,
+        0,
+        0.5
+      ],
+      "barColor": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "color": [],
+      "conditions": [],
+      "config": [],
+      "desaturate": false,
+      "displayIcon": "flaeche/rsz_flagge.tga",
+      "frameStrata": 1,
+      "height": 50,
+      "icon": true,
+      "icon_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "icon_side": "RIGHT",
+      "id": "Vexiona - FLÄCHE",
+      "internalVersion": 29,
+      "inverse": false,
+      "load": {
+        "class": {
+          "multi": []
+        },
+        "difficulty": {
+          "multi": {
+            "mythic": true
+          },
+          "single": "mythic"
+        },
+        "encounterid": "2336",
+        "size": {
+          "multi": []
+        },
+        "spec": {
+          "multi": []
+        },
+        "use_difficulty": true,
+        "use_encounterid": true
+      },
+      "orientation": "HORIZONTAL",
+      "regionType": "aurabar",
+      "selfPoint": "CENTER",
+      "semver": "1.0.0",
+      "spark": false,
+      "sparkBlendMode": "ADD",
+      "sparkColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "sparkHeight": 30,
+      "sparkHidden": "NEVER",
+      "sparkOffsetX": 0,
+      "sparkOffsetY": 0,
+      "sparkRotation": 0,
+      "sparkRotationMode": "AUTO",
+      "sparkTexture": "Interface\\CastingBar\\UI-CastingBar-Spark",
+      "sparkWidth": 10,
+      "subRegions": [
+        {
+          "type": "aurabar_bar"
+        },
+        {
+          "anchorXOffset": 0,
+          "anchorYOffset": 0,
+          "rotateText": "NONE",
+          "text_anchorPoint": "ICON_CENTER",
+          "text_automaticWidth": "Auto",
+          "text_color": [
+            0,
+            0,
+            0,
+            0.80676916241646
+          ],
+          "text_fixedWidth": 64,
+          "text_font": "Expressway",
+          "text_fontSize": 23,
+          "text_fontType": "None",
+          "text_justify": "CENTER",
+          "text_selfPoint": "AUTO",
+          "text_shadowColor": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "text_shadowXOffset": 1,
+          "text_shadowYOffset": -1,
+          "text_text": "%p",
+          "text_visible": true,
+          "text_wordWrap": "WordWrap",
+          "type": "subtext"
+        },
+        {
+          "glow": true,
+          "glowBorder": false,
+          "glowColor": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "glowFrequency": 0.25,
+          "glowLength": 10,
+          "glowLines": 8,
+          "glowScale": 1,
+          "glowThickness": 1,
+          "glowType": "buttonOverlay",
+          "glowXOffset": 0,
+          "glowYOffset": 0,
+          "glow_anchor": "bar",
+          "text_color": [],
+          "type": "subglow",
+          "useGlowColor": false
+        }
+      ],
+      "texture": "Solid",
+      "tocversion": 80300,
+      "triggers": {
+        "1": {
+          "trigger": {
+            "castType": "cast",
+            "debuffType": "HELPFUL",
+            "duration": "1",
+            "event": "Cast",
+            "names": [],
+            "spellId": 315932,
+            "spellIds": [],
+            "subeventPrefix": "SPELL",
+            "subeventSuffix": "_CAST_START",
+            "type": "status",
+            "unevent": "auto",
+            "unit": "nameplate",
+            "use_absorbMode": true,
+            "use_castType": true,
+            "use_spell": false,
+            "use_spellId": true,
+            "use_unit": true
+          },
+          "untrigger": {
+            "unit": "nameplate"
+          }
+        },
+        "activeTriggerMode": -10,
+        "disjunctive": "any"
+      },
+      "uid": "P6eeSifT7pA",
+      "url": "https://wago.io/k5FaThwuj/1",
+      "useAdjustededMax": false,
+      "useAdjustededMin": false,
+      "version": 1,
+      "wagoID": "k5FaThwuj",
+      "width": 50,
+      "xOffset": 0,
+      "yOffset": 250,
+      "zoom": 0
+    },
+    "m": "d",
+    "s": "2.17.3",
+    "v": 1421,
+    "wagoID": "k5FaThwuj"
+  }
